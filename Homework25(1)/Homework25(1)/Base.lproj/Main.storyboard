@@ -30,35 +30,48 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="170"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8RO-Wv-ce7">
-                                                    <rect key="frame" x="20" y="11" width="374" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8RO-Wv-ce7">
+                                                    <rect key="frame" x="20" y="13" width="374" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Capital" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPd-gL-tyh">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capital" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPd-gL-tyh">
                                                     <rect key="frame" x="20" y="49" width="374" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Borders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5A-X8-4Lo">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Borders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O5A-X8-4Lo">
                                                     <rect key="frame" x="20" y="87" width="374" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currencies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM8-7p-rFc">
-                                                    <rect key="frame" x="20" y="129" width="374" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Currencies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cM8-7p-rFc">
+                                                    <rect key="frame" x="20" y="125" width="374" height="30"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="8RO-Wv-ce7" firstAttribute="top" secondItem="5YR-bW-GDf" secondAttribute="topMargin" constant="2" id="2nH-g4-by6"/>
+                                                <constraint firstItem="cM8-7p-rFc" firstAttribute="leading" secondItem="O5A-X8-4Lo" secondAttribute="leading" id="3i7-IB-5sH"/>
+                                                <constraint firstItem="8RO-Wv-ce7" firstAttribute="leading" secondItem="5YR-bW-GDf" secondAttribute="leadingMargin" id="4js-Tf-BXp"/>
+                                                <constraint firstItem="iPd-gL-tyh" firstAttribute="height" secondItem="8RO-Wv-ce7" secondAttribute="height" multiplier="1.46341" id="6O0-O4-Lyh"/>
+                                                <constraint firstItem="iPd-gL-tyh" firstAttribute="leading" secondItem="8RO-Wv-ce7" secondAttribute="leading" id="GtV-ef-UBS"/>
+                                                <constraint firstItem="O5A-X8-4Lo" firstAttribute="height" secondItem="iPd-gL-tyh" secondAttribute="height" id="H3c-un-9z0"/>
+                                                <constraint firstItem="8RO-Wv-ce7" firstAttribute="trailing" secondItem="5YR-bW-GDf" secondAttribute="trailingMargin" id="J6M-Ox-C6C"/>
+                                                <constraint firstItem="iPd-gL-tyh" firstAttribute="top" secondItem="8RO-Wv-ce7" secondAttribute="bottom" constant="15.5" id="Lht-nP-DSD"/>
+                                                <constraint firstItem="iPd-gL-tyh" firstAttribute="trailing" secondItem="8RO-Wv-ce7" secondAttribute="trailing" id="UXc-Y6-bFm"/>
+                                                <constraint firstItem="cM8-7p-rFc" firstAttribute="height" secondItem="O5A-X8-4Lo" secondAttribute="height" id="YuY-jr-D5W"/>
+                                                <constraint firstItem="O5A-X8-4Lo" firstAttribute="trailing" secondItem="iPd-gL-tyh" secondAttribute="trailing" id="bvL-2B-Lrj"/>
+                                                <constraint firstItem="cM8-7p-rFc" firstAttribute="trailing" secondItem="O5A-X8-4Lo" secondAttribute="trailing" id="d3z-iN-JbB"/>
+                                                <constraint firstItem="O5A-X8-4Lo" firstAttribute="top" secondItem="iPd-gL-tyh" secondAttribute="bottom" constant="8" id="f9y-I9-6CN"/>
+                                                <constraint firstItem="cM8-7p-rFc" firstAttribute="top" secondItem="O5A-X8-4Lo" secondAttribute="bottom" constant="8" id="h9e-E9-IIO"/>
+                                                <constraint firstItem="O5A-X8-4Lo" firstAttribute="leading" secondItem="iPd-gL-tyh" secondAttribute="leading" id="vk6-uk-Edh"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="bordersLabel" destination="O5A-X8-4Lo" id="fn1-XS-1tV"/>
